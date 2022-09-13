@@ -26,8 +26,8 @@ export const Card = () => {
                 <div className="title-holder">
                     <h1>Sergio Diaz</h1>
                     <h1>React | React Native Developer</h1>
-                    <p>Website coming soon. Please check back to know more</p>
-                </div>
+{/*                     <p>Website coming soon. Please check back to know more</p>
+ */}                </div>
                 {/* <a href="mailto:sergiojulian1998@outlook.com">
                     <div className="cta">Send me an email</div>
                 </a> */}

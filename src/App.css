@@ -12,10 +12,27 @@
   height: 80%;
   margin: auto;
   min-height: 512px;
-  background: linear-gradient(to top, #30cfd0 0%, #330867 100%);;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  /* background: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+  background: linear-gradient(60deg, #16213E, #61A4BC, #FE7E6D, #E94560);
+  background-size: 500%;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media screen and (max-width: 512px) {
